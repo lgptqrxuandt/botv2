@@ -1,5 +1,5 @@
 const axios = require("axios");
-const config = require("./config.example.js");
+const config = require("./config.js");  // Fixed import
 
 async function getUserId(username) {
   try {
@@ -99,3 +99,4 @@ async function main() {
 }
 
 main();
+
